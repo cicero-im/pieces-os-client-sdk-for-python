@@ -20,5 +20,8 @@ __version__ = "5.0.0"
 # import apis into sdk package
 
 # import ApiClient
+from pieces_os_client.rest import ApiException
+from pieces_os_client.configuration import Configuration
+from pieces_os_client.api_client import ApiClient
 
 # import models into sdk package
